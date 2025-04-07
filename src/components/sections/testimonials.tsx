@@ -73,7 +73,7 @@ export const Testimonials = ({
     const fetchTestimonials = async () => {
       try {
         const response = await axios.get<Items[]>(
-          "https://worker-proxy-server.lukakovacevic0100.workers.dev/api/posts/luka/testimonials"
+          "https://worker-proxy-server.dreamwalkertp.workers.dev/api/channel-luka/testimonials"
         );
 
         setItems(response.data);
